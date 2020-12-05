@@ -146,7 +146,7 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+![png](./images/output_10_0.png)
 
 
 
@@ -163,7 +163,7 @@ plt.show()
 ```
 
 
-![png](output_11_0.png)
+![png](./images/output_11_0.png)
 
 
 
@@ -180,7 +180,7 @@ plt.show()
 ```
 
 
-![png](output_12_0.png)
+![png](./images/output_12_0.png)
 
 
 
@@ -194,7 +194,7 @@ plt.show()
 ```
 
 
-![png](output_13_0.png)
+![png](./images/output_13_0.png)
 
 
 ## Cenário anormal (com pertubações)
@@ -289,7 +289,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](./images/output_16_0.png)
 
 
 
@@ -305,7 +305,7 @@ plt.show()
 ```
 
 
-![png](output_17_0.png)
+![png](./images/output_17_0.png)
 
 
 ## Referências Bibliograficas
