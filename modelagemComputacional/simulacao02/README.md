@@ -14,7 +14,7 @@ Para uma melhorar análise desse fenômeno é necessário a implementação de u
 Foi utilizado como produtor nessa cadeia trófica a grama – representada pela função G(t).<br>
 Os consumidores primários dessa rede são as Zebras e Impalas – representadas pelas funções Z(t) e I(t) respectivamente.<br>
 A parte final é composta pelos consumidores secundários (carnívoros). O Leão e a Hiena foram as espécies utilizadas nessa simulação – representas por L(t) e H(t) respectivamente.<br>
-<img src="cadeia.png"> 
+<img src="./images/cadeia.png"> 
 
 ## Modelo Lotka-Volterra
 É um modelo matematico que analísa a relação entre predador e presa. Foi desenvolvidor por dois matemáticos na década de 1920, o americano Alfred Lotka e o italiano Vito Volterra.<br>
@@ -31,8 +31,8 @@ $$\frac{dP}{dt} = kP\bigl(1 - \frac{P}{M}\bigr)$$
 </center>
 
 ## Equações
-<img src="tabela01.png">
-<img src="tabela02.png">
+<img src="./images/tabela01.png">
+<img src="./images/tabela02.png">
 
 ### <center>Equações</center>
 <center><b>Grama</b> (Produtor):<br>
