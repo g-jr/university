@@ -18,16 +18,16 @@ A parte final é composta pelos consumidores secundários (carnívoros). O Leão
 
 ## Modelo Lotka-Volterra
 É um modelo matematico que analísa a relação entre predador e presa. Foi desenvolvidor por dois matemáticos na década de 1920, o americano Alfred Lotka e o italiano Vito Volterra.<br>
-<center>Temos como base a equação da variação da população da <b>presa</b> sendo:
-$$\frac{dV}{dt} = P(αV - β)$$
-    E a variação do <b>predador</b> dado por:
-$$\frac{dP}{dt} = V(λ - φP)$$</center>
+<center>Temos como base a equação da variação da população da <b>presa</b> sendo:<br>
+dV/dt = P(αV - β)<br>
+E a variação do <b>predador</b> dado por:<br>
+dP/dt = V(λ - φP)</center>
 
 #  Modelo Logístico
 A população de uma determinada espécie pode, em determinado momento, crescer exponencialmente. É necessário, para o estudo do crescimento populacional, a utilização de um limite superior para a função que representa essa espécie.<br>
 O modelo logístico visa resolver esse problema. Através de um limite superior, definido como o nível de saturação ou capacidade do meio, ele faz com que a população não cresca indefinidademente.<br>
-<center>Equação diferencial Logistica:
-$$\frac{dP}{dt} = kP\bigl(1 - \frac{P}{M}\bigr)$$
+<center>Equação diferencial Logistica:<br>
+dP/dt = kP(1 - P/M)
 </center>
 
 ## Equações
@@ -36,19 +36,19 @@ $$\frac{dP}{dt} = kP\bigl(1 - \frac{P}{M}\bigr)$$
 
 ### <center>Equações</center>
 <center><b>Grama</b> (Produtor):<br>
-$$dG = G(t) \cdot \Bigl( A1 \cdot \Bigl(1 - \frac{G(t)}{K}\Bigr) - A2 \cdot Z(t) - A3 \cdot I(t) \Bigr) \cdot dT$$
+dG = G(t)(A1 (1 - G(t)/K) - A2*Z(t) - A3*I(t))dT<br>
 <br>
     <b>Zebra</b> - herbívoro (consumidor primário):<br>
-$$dZ = Z(t) \cdot \Bigl(B1 \cdot G(t) - B2 \cdot  L(t) - B3 \cdot H(t) - B4 \cdot Z(t)\Bigr) \cdot dT$$
+dZ = Z(t)(B1*G(t) - B2*L(t) - B3*H(t) - B4*Z(t))dT<br>
 <br>
     <b>Impala</b> - herbívoro (consumidor primário):<br>
-$$dI = I(t) \cdot \Bigl(C1 \cdot G(t) - C2 \cdot L(t) - C3 \cdot H(t) - C4 \cdot I(t)\Bigr) \cdot dT$$
+dI = I(t)(C1*G(t) - C2*L(t) - C3*H(t) - C4*I(t))dT<br>
 <br>
     <b>Leão</b> - carnívoro (consumidor secundário):<br>
-$$dL = L(t) \cdot \Bigl(D1 \cdot Z(t) + D2 \cdot I(t) - D3 \cdot L(t)\Bigr) \cdot dT$$
+dL = L(t)(D1*Z(t) + D2*I(t) - D3*L(t))dT<br>
 <br>
     <b>Hiena</b> - carnívoro (consumidor secundário):<br>
-$$dH = H(t) \cdot \Bigl(E1 \cdot Z(t) + E2 \cdot I(t) - E3 \cdot H(t)\Bigr) \cdot dT$$
+dH = H(t)(E1*Z(t) + E2*I(t) - E3*H(t))dT<br>
 </center>
 
 
