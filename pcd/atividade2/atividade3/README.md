@@ -1,0 +1,3 @@
+# Atividade 3 - Seção crítica em Java
+
+Considere o programa anexo em Java que implementa uma simulação de uma via de mão dupla, onde carros vêm em ambos os sentidos (direita e esquerda). Os carros vindo das duas direções têm que passar por uma ponte, onde somente entra um carro por vez (tanto vindo da direita ou esquerda). Implemente um mecanismo de seção crítica que permita evitar colisões dos carros sobre a ponte de via única. O código implementa uma interface gráfica facilmente manipulável que permite inserir carros em ambas as direções, onde é possível identificar as colisões sobre a ponte.
